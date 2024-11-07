@@ -94,7 +94,7 @@ while True:
             tax = int(salary + (salary - 6000) / 10 + (salary - 12000) / 100 * 20 + (salary - 18000) / 100 * 30 + (
                     salary - 25000) / 100 * 40 + (salary - 35000) / 100 * 45 + (salary - 50000) / 100 * 51)
             break
-print(tax)
+print(f"The final tax is: {tax}")
 #
 
 # 11
