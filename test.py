@@ -43,10 +43,9 @@ print(f"The rightmost digit is: {num}")
 # 6
 num: int = int(input("Enter a number of 4 digits:"))
 result: int = 10
-for i in range(2):
-    num = num // result
+num = num // result
 num %= 10
-print(f"The rightmost digit is: {num}")
+print(f"The digit is: {num}")
 #
 
 # 7
