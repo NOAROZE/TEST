@@ -115,10 +115,10 @@ for i in range(1, num + 1):
 num1: int = int(input("Enter a natural number:"))
 num2: int = int(input("Enter a natural number:"))
 if num1 > num2:
-    for i in range(num2, num1):
+    for i in range(num2, num1 + 1):
         print(i)
 else:
-    for i in range(num1, num2):
+    for i in range(num1, num2 + 1):
         print(i)
 #
 
