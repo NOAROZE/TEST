@@ -277,7 +277,9 @@ while counter > 0:
         # temperature: int = int(input("Enter the temperature:"))
 else:
     average = sum_temper // 12
-    print(average)
+    print(f"The average of temperature is: {average}")
+    print(f"The highest temperature is: {max(temperatures)}")
+    print(f"The lowest temperature is: {min(temperatures)}")
 #
 
 # 2
