@@ -228,12 +228,12 @@ print(True if any(bool1) else False)
 num1: int = int(input("Enter a number:"))
 num2: int = int(input("Enter a number:"))
 if num1 > num2:
-    for i in range(num2 + 1 , 1, -1):
+    for i in range(num2, 0, -1):
         if int(num1 % i == 0 and num2 % i == 0):
             print(f"The highest divider is: {i}")
             break
 else:
-    for i in range(num1 + 1 , 1, -1):
+    for i in range(num1, 0, -1):
         if int(num2 % i == 0 and num1 % i == 0):
             print(f"The highest divider is: {i}")
             break
